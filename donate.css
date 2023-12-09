@@ -1,0 +1,193 @@
+.col-md-12,
+.col-md-4,
+.col-md-6{
+	border:solid 0px blue;
+	min-height: 70px;
+}
+
+.bg-body-tertiary{
+  height: 89px;
+
+}
+
+#head{
+  z-index: 1000;
+  position:fixed;
+
+}
+
+
+.carousel-inner img{
+	width: 400px;
+	height: 600px;
+
+}
+
+
+ .card img{
+ 	width:285px;
+ 	height:200px;
+ }
+
+ .navbar-brand{
+ 	font-size: 40px;
+ }
+
+
+ h5{
+ 	text-align: center;
+ }
+
+.col-md-12 h1{
+	margin:30px;
+}
+ .about{
+ 	text-indent:20px;
+ 	font-size: 19px;
+ 	margin: 30px;
+ } 
+
+.bi-meta,.bi-instagram,.bi-linkedin,.bi-tiktok{
+   margin: 20px;
+}
+
+/*Apply this noPadding class behind the name of a class*/
+.noPadding{
+	padding: 0px;
+}
+
+footer{
+	background:black;
+	color: white;
+	height: auto;
+}
+
+.mb-3{
+	padding:25px;
+}
+
+
+.col-md-6 h3{
+	margin: 20px;
+}
+
+
+
+
+
+/*
+
+  <body>
+    <div class="container-fluid">
+      <header class="row">
+        <div class="col-md-12 noPadding">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Save Stray Cats &#128062</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Menu
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Cat Facts</a></li>
+                      <li><a class="dropdown-item" href="#">Our Actions</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Donation</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-danger" type="submit">Contribute!</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+ 
+
+        <div class="row">
+          <div class="col-md-6 noPadding">
+            <img src="stray-cat2.jpeg" width="100%" height="90%">
+            <h6>Photo Credit: Animal Welfare League </h6>
+          </div>
+          <div class="col-md-6 noPadding">
+            <div class="row"> 
+              <div class="col-md-12">
+                <h3> Save Stray Cats   <small class="text-body-secondary">  Every Dollor Counts.</small> </h3>
+                <p style="text-indent:20px; margin-left:15px">By donating to support stray cats, you can make a difference in the lives of these vulnerable animals and provide them with food, shelter, and necessary medical care, giving them a chance to live happy and healthy lives.</p>
+              </div>
+            </div>
+            
+            <div class="row"> 
+              <div class="col-md-4"> 
+                 <button type="button" class="btn btn-light"><strong>$5 </strong>= 1 Warm Blanket</button>
+              </div>
+              <div class="col-md-4"> 
+                  <button type="button" class="btn btn-light"><strong>$10 </strong>= Weekly Food</button>
+              </div>
+              <div class="col-md-4"> 
+                  <button type="button" class="btn btn-light"><strong>$15 </strong>= Basic Facilities</button>
+              </div>
+            </div>
+            <div class="row"> 
+              <div class="col-md-4"> 
+                 <button type="button" class="btn btn-light"><strong>$20 </strong>= 1 Vaccination</button>
+              </div>
+              <div class="col-md-4"> 
+                  <button type="button" class="btn btn-light"><strong>$50 </strong>= 1 Shelter</button>
+              </div>
+              <div class="col-md-4"> 
+                  <button type="button" class="btn btn-light"><strong>$100 </strong>= 1 Surgery</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-group mb-3" style="padding:0px; width:50%; margin-left:50px">
+                <span class="input-group-text">$</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <span class="input-group-text">.00</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12"> 
+              <button type="button" class="btn btn-success" style="margin-left:40px; width:30%">Contribute Now</button>
+              </div>
+            </div>
+        </div>
+
+
+       
+        <footer class='row' id="er">
+          <div class='col-md-6'>
+            <h3>Join Our Movements! </h3>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Enter your email address" aria-label="Username">
+              <span class="input-group-text">@</span>
+              <input type="text" class="form-control" placeholder="gmail.com" aria-label="Server">
+            </div>
+          </div>
+          <div class='col-md-6'>
+            <h3> Connect </h3>
+            <i class="bi bi-meta" style="font-size: 50px"></i>
+            <i class="bi bi-instagram" style="font-size: 50px"></i>
+            <i class="bi bi-linkedin" style="font-size: 50px"></i>
+            <i class="bi bi-tiktok" style="font-size: 50px"></i>
+          </div>
+        </footer>
+      
+    </div>
+    
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+*/

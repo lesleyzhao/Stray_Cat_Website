@@ -1,0 +1,87 @@
+.col-md-12,
+.col-md-4,
+.col-md-6{
+	border:solid 0px black;
+	min-height: 60px;
+}
+
+
+#head{
+  z-index: 1000;
+  position:fixed;
+
+}
+
+.carousel-inner img{
+	width: 400px;
+	height: 600px;
+
+}
+
+
+ .card img{
+ 	width:285px;
+ 	height:200px;
+ }
+
+ .navbar-brand{
+ 	font-size: 40px;
+ }
+
+
+ h5{
+ 	text-align: center;
+ }
+
+.col-md-12 h1{
+	margin:30px;
+}
+ .about{
+ 	text-indent:20px;
+ 	font-size: 19px;
+ 	margin: 30px;
+ } 
+
+.bi-meta,.bi-instagram,.bi-linkedin,.bi-tiktok{
+   margin: 20px;
+}
+
+/*Apply this noPadding class behind the name of a class*/
+.noPadding{
+	padding: 0px;
+}
+
+footer{
+	background:black;
+	color: white;
+	height: auto;
+}
+
+.mb-3{
+	padding:25px;
+}
+
+
+.col-md-6 h3{
+	margin: 20px;
+}
+
+.col-md-4 .card{
+	margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#show{
+	text-align: center !important;
+	font-size:20px !important;
+	color: brown !important;
+	display: flex !important;
+	justify-content: space-around !important;
+} 
+
+#clickme{
+	margin-left: 100px;
+}
