@@ -88,21 +88,163 @@
               </div>
             </div>
             <div class="row">
-             <div class="col-md-12">
-              <div class="input-group mb-3" style="padding:0px; width:50%; margin-left:10px">
-                <span class="input-group-text">$</span>
-                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                <span class="input-group-text">.00</span>
-              </div>
-            </div>
-            </div>
-            <div class="row">
               <div class="col-md-12"> 
-              <button type="button" class="btn btn-success" style="margin-left:40px; width:30%">Contribute Now</button>
+              <a type="button" class="btn btn-success" style="margin-left:40px; width:30%" href="#orderForm">Contribute Now</a>
               </div>
             </div>
         </div>
       </div>
+
+      <form id="orderForm" class="container mt-4">
+        <!-- Product 1 -->
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <h5>Product 1 - Cat Food</h5>
+                <p class="text-muted">Provide weekly food and nutrition to cats in shelters.</p>
+                <label>Quantity:
+                    <input type="number" name="quantity1" class="form-control" min="0" value="0">
+                </label>
+                <p style="margin-top: 20px;" id="price1">Price: $10</p>
+                <p>Subtotal: <span id="subtotal1">0</span></p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://assets-global.website-files.com/60cd7ae35efaf14623f555c5/6373e9b3b3de9c9db715caea_what-are-the-different-types-of-cat-food.jpg" class="img-fluid" alt="Product 1">
+            </div>
+        </div>
+    
+        <!-- Product 2 -->
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <h5>Product 2 - Surgery</h5>
+                <p class="text-muted">Provide sterilization surgeries to prevent more stray cats.</p>
+                <label>Quantity:
+                    <input type="number" name="quantity2" class="form-control" min="0" value="0">
+                </label>
+                <p style="margin-top: 20px;" id="price2">Price: $100</p>
+                <p>Subtotal: <span id="subtotal2">0</span></p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://d2zp5xs5cp8zlg.cloudfront.net/image-80652-800.jpg" class="img-fluid" alt="Product 2">
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="row mb-3">
+          <div class="col-md-6">
+              <h5>Product 3 - Warm Blanket</h5>
+              <p class="text-muted">Provide warm blanket to help stray cats survive through winters.</p>
+              <label>Quantity:
+                  <input type="number" name="quantity2" class="form-control" min="0" value="0">
+              </label>
+              <p style="margin-top: 20px;" id="price3">Price: $5</p>
+              <p>Subtotal: <span id="subtotal3">0</span></p>
+          </div>
+          <div class="col-md-6">
+              <img src="https://sepicat.com/wp-content/uploads/2018/05/shutterstock_589470098-1-1024x538.png.webp" class="img-fluid" alt="Product 2">
+          </div>
+      </div>
+
+       <!-- Product 4 -->
+       <div class="row mb-3">
+        <div class="col-md-6">
+            <h5>Product 4 - Basic Facilities</h5>
+            <p class="text-muted">Provide pet supplies to help stray cats keep healthy.</p>
+            <label>Quantity:
+                <input type="number" name="quantity2" class="form-control" min="0" value="0">
+            </label>
+            <p style="margin-top: 20px;" id="price4">Price: $15</p>
+            <p>Subtotal: <span id="subtotal4">0</span></p>
+        </div>
+        <div class="col-md-6">
+            <img src="https://www.petsecure.com/getattachment/af1f5e4d-3ca9-41bf-910f-78eb8f0815f9/Pet-Dental-Care.png?lang=en-CA&width=800&height=450&ext=.png" class="img-fluid" alt="Product 2">
+        </div>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="row mb-3">
+      <div class="col-md-6">
+          <h5>Product 5 - Vaccination</h5>
+          <p class="text-muted">Provide vaccinatioin to prevent infection of disease for stray cats.</p>
+          <label>Quantity:
+              <input type="number" name="quantity2" class="form-control" min="0" value="0">
+          </label>
+          <p style="margin-top: 20px;" id="price5">Price: $20</p>
+          <p>Subtotal: <span id="subtotal5">0</span></p>
+      </div>
+      <div class="col-md-6">
+          <img src="https://kb.rspca.org.au/wp-content/uploads/2020/03/cat-vaccination.jpg" class="img-fluid" alt="Product 2">
+      </div>
+  </div>
+
+  <!-- Product 6 -->
+  <div class="row mb-3">
+    <div class="col-md-6">
+        <h5>Product 6 - Shelter</h5>
+        <p class="text-muted">Help financing a shelter to build a temporary home for cats.</p>
+        <label>Quantity:
+            <input type="number" name="quantity2" class="form-control" min="0" value="0">
+        </label>
+        <p style="margin-top: 20px;" id="price6">Price: $50</p>
+        <p>Subtotal: <span id="subtotal6">0</span></p>
+        
+    </div>
+    <div class="col-md-6">
+        <img src="https://media.istockphoto.com/id/605756934/photo/little-kittens-in-a-cage-of-a-shelter.jpg?s=612x612&w=0&k=20&c=FiYejjmYD0a-MtQZ8hO_6X_A4c-b2Xcx6HeX97g1cVw=" class="img-fluid" alt="Product 2">
+    </div>
+</div>
+  
+  <div class="row mb-3">
+    <form id="orderForm" class="col-md-6">
+      <!-- Shipping Method -->
+      <div class="form-group row">
+          <label for="shippingMethod" class="col-md-2 col-form-label">Shipping Method:</label>
+          <div class="col-md-10">
+              <select name="shippingMethod" class="form-control" id="shippingMethod">
+                  <option value="">Select an option</option>
+                  <option value="will-call">Will-call</option>
+                  <option value="shipping">Shipping ($5)</option>
+              </select>
+          </div>
+      </div>
+    
+  
+      <!-- Total -->
+      <div class="form-group row">
+          <label for="total" class="col-md-2 col-form-label">Total:</label>
+          <div class="col-md-10">
+              <input type="text" id="total" class="form-control" readonly>
+          </div>
+      </div>
+    </div>
+   </form>
+
+      <!-- User Details -->
+      <form id="Info" class="row" style="display: flex;">        
+        <div class="col-md-4 offset-md-1" style="">
+            <input type="text" name="userName" placeholder="Name" class="info form-control form-control-sm mb-3">
+            <input type="tel" name="userPhone" placeholder="Phone" class="info form-control form-control-sm mb-3">
+            <input type="email" name="userEmail" placeholder="Email" class="info form-control form-control-sm mb-3">
+            <input type="text" name="userAddress" placeholder="Address" class="info form-control form-control-sm mb-3">
+            <input type="text" name="zipCode" placeholder="Zip Code" maxlength="5" class="info form-control form-control-sm mb-3">
+            
+            <label>Credit card:</label>
+            <div class="form-check form-check-inline mb-3">
+                <input class="form-check-input" type="radio" name="creditCard" id="Amex" value="Amex" checked>
+                <label class="form-check-label" for="Amex">MasterCard</label>
+            </div>
+            <div class="form-check form-check-inline mb-3">
+                <input class="form-check-input" type="radio" name="creditCard" id="Visa" value="Visa">
+                <label class="form-check-label" for="Visa">Visa</label>
+            </div>
+            
+            <input type="password" name="creditCard" placeholder="Credit Card" class="info form-control form-control-sm mb-3">
+            <button type="reset" class="btn btn-secondary btn-sm info">Reset</button>
+             <button type="submit" class="btn btn-primary btn-sm info">Checkout</button>
+        </div>
+       
+    </form>
+
+    <br>
 
       <footer class='row' id="er"> 
           <div class='col-md-6'>
@@ -125,7 +267,7 @@
        
       
       
-
+   <script src="js/product.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 </html>
