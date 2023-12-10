@@ -18,6 +18,13 @@
 
 }
 
+.input-group .form-control, .input-group .input-group-text {
+	height: 38px; /* Adjust this value as needed */
+}
+
+#clickme{
+	margin-left: 100px;
+}
 
  .card img{
  	width:285px;
