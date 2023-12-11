@@ -1,139 +1,142 @@
 <!DOCTYPE html>
 <html lang='en'>
-  <head>
-    <meta charset='UTF-8'/>
-    <title>Save Stray Cat Page</title>
-    <!-- link to Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <!-- My own css stylesheet, it can overwrite some features in Boostrap class -->
-     <link rel='stylesheet' href='index_css.css'>
-     <link rel="icon" type="image/png" href="https://p7.hiclipart.com/preview/985/709/225/cat-dog-paw-computer-icons-clip-art-cat-footprint.jpg"sizes="32x32">
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-  </head>
+
+<head>
+  <meta charset='UTF-8' />
+  <title>Save Stray Cat Page</title>
+  <!-- link to Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <!-- My own css stylesheet, it can overwrite some features in Boostrap class -->
+  <link rel='stylesheet' href='index_css.css'>
+  <link rel="icon" type="image/png"
+    href="https://p7.hiclipart.com/preview/985/709/225/cat-dog-paw-computer-icons-clip-art-cat-footprint.jpg"
+    sizes="32x32">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
 
 
-  <body>
-    <div class="container-fluid">
-      <header class="row" >
-        <div class="col-md-12 noPadding" id="head">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid" >
-              <a class="navbar-brand" href="#">Save Stray Cats &#128062</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Menu
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="fact.html">Cat Facts</a></li>
-                      <li><a class="dropdown-item" href="action.html">Our Actions</a></li>
-                      <li><a class="dropdown-item" href="contact.html">Contact us</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="donate.html">Donation</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+<body>
+  <div class="container-fluid">
+    <header class="row">
+      <div class="col-md-12 noPadding" id="head">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Save Stray Cats &#128062</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Menu
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="fact.html">Cat Facts</a></li>
+                    <li><a class="dropdown-item" href="action.html">Our Actions</a></li>
+                    <li><a class="dropdown-item" href="contact.html">Contact us</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="donate.html">Donation</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="stoires.html">Stoires</a>
+                </li>
+
+              </ul>
+
+              <form class="d-flex" role="search">
+                <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-danger" type="submit">
-                    <a href="donate.html" class="contribute" style="text-decoration: none; color:white">
-                    Contribute!
+                    <a href="search.html" class="contribute" style="text-decoration: none; color:white">
+                    Search
                    </a>
-                 </button>
+                 </button> -->
+                <form class="d-flex" role="search" action="search.php" method="GET">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="query">
+                  <button class="btn btn-danger" type="submit">
+                    Search
+                  </button>
                 </form>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </header>
 
-
-        <div class="row">
-          <div class="col-md-12 noPadding">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="1000" >
-               <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="stray_cat5.jpeg" id = "pic1" class="d-block w-100" alt="...">
-                   <div class="carousel-caption d-none d-md-block">
-                  <h5 class="stitle">Stray Cats Problem in China</h5>
-                  <p class="intro">Millions of stray cats live on China's streets, most of them are <b> abandoned with disease </b>.</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="stray-cat3.png" class="d-block w-100" alt="Lonely Stray Chinese Cat">
-                  <div class="carousel-caption d-none d-md-block">
-                  <h5 class="stitle">Urgency for Medical Care</h5>
-                  <p class="intro">These animals are usually diagonised with  diseases that cannot be paid by their owners, such as cancer. </p>
-                </div> 
-                </div> 
-                <div class="carousel-item" >
-                  <img src="stray-cat1.webp" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                  <h5 class="stitle">Countdown of a Life</h5>
-                  <p class="intro">Without a healthy body, they normally will not survive outdoors <b>over two months </b>.</p>
-                </div>
-                </div>   
-
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-             
-            
+              </form>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-             <div class="card" style="width: 18rem;">
-              <img src="https://avmajournals.avma.org/fileasset/News/260-14/2022-09-13-avma-news-FIP-Guidelines.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Feline infectious peritonitis </h5>
-                <p class="card-text">Stray cats in China face Feline Infectious Peritonitis (FIP), a deadly disease caused by a coronavirus. Some of them are abandoned due to FIP, and this highly infectious disease can further threaten other stray cats because of their weakened immune systems. </p>
-                <a href="fact.html#collapseOne" class="btn btn-primary">More Details</a>
-                <a href="action.html#three" class="btn btn-primary">Our Actions</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <div class="row">
+      <div class="col-md-12 noPadding">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="1000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="stray_cat5.jpeg" id="pic1" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="stitle">Stray Cats Problem in China</h5>
+                <p class="intro">Millions of stray cats live on China's streets, most of them are <b> abandoned with
+                    disease </b>.</p>
               </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-              <img src="https://image.petmd.com/files/styles/863x625/public/cat-nursing-kittens.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Pregnancy</h5>
-                <p class="card-text">In China, female stray cats are victims of frequent pregnancies, suffering under harsh conditions due to a lack of sterilization. The constant stimulation of hormones forces them to breed every oestrous cycle, adding to the ever-growing number of abandoned cats. </p>
-                <a href="fact.html#collapseTwo" class="btn btn-primary">More Details</a>
-                <a href="action.html#two" class="btn btn-primary">Our Actions</a>
+            <div class="carousel-item">
+              <img src="stray-cat3.png" class="d-block w-100" alt="Lonely Stray Chinese Cat">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="stitle">Urgency for Medical Care</h5>
+                <p class="intro">These animals are usually diagonised with diseases that cannot be paid by their owners,
+                  such as cancer. </p>
               </div>
             </div>
-           </div>
-          <div class="col-md-4">
-             <div class="card" style="width: 18rem;">
-               <img src="stray_cat6.jpeg" alt="...">
-                 <div class="card-body">
-                   <h5 class="card-title">Keep Kitty Warm</h5>
-                     <p class="card-text">Winter in China is a harsh season for stray cats, as many will not survive the frigid temperatures and lack of food. These innocent creatures are left to fend for themselves, exposed to the unbearable temperatures and with no shelter to call home.  </p>
-                         <a href="fact.html#collapseThree" class="btn btn-primary">More Details</a>
-                         <a href="action.html#one" class="btn btn-primary">Our Actions</a>
-                  </div>
+            <div class="carousel-item">
+              <img src="stray-cat1.webp" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="stitle">Countdown of a Life</h5>
+                <p class="intro">Without a healthy body, they normally will not survive outdoors <b>over two months
+                  </b>.</p>
               </div>
+            </div>
+
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+
         </div>
-        <div class='row'>
-          <div class='col-md-12' id="btitle">
-            <h1 style="margin-left:40px;margin-top:30px;margin-bottom: 15px;"> What are Stray Cats? &#128062 </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://avmajournals.avma.org/fileasset/News/260-14/2022-09-13-avma-news-FIP-Guidelines.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Feline infectious peritonitis </h5>
+            <p class="card-text">Stray cats in China face Feline Infectious Peritonitis (FIP), a deadly disease caused
+              by a coronavirus. Some of them are abandoned due to FIP, and this highly infectious disease can further
+              threaten other stray cats because of their weakened immune systems. </p>
+            <a href="fact.html#collapseOne" class="btn btn-primary">More Details</a>
+            <a href="action.html#three" class="btn btn-primary">Our Actions</a>
           </div>
            <div class='col-md-12'>
             <p class="about">
@@ -158,35 +161,106 @@
             <br>
            </div>
         </div>
-        <footer class='row'>
-          <div class='col-md-6'>
-            <h3>Join Our Movements! </h3>
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Enter your email address" aria-label="Username">
-              <span class="input-group-text">@</span>
-              <input type="text" class="form-control" placeholder="gmail.com" aria-label="Server">
-            </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://image.petmd.com/files/styles/863x625/public/cat-nursing-kittens.jpg" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pregnancy</h5>
+            <p class="card-text">In China, female stray cats are victims of frequent pregnancies, suffering under harsh
+              conditions due to a lack of sterilization. The constant stimulation of hormones forces them to breed every
+              oestrous cycle, adding to the ever-growing number of abandoned cats. </p>
+            <a href="fact.html#collapseTwo" class="btn btn-primary">More Details</a>
+            <a href="action.html#two" class="btn btn-primary">Our Actions</a>
           </div>
-          <div class='col-md-6'>
-            <h3> Connect </h3>
-            <i class="bi bi-meta" style="font-size: 50px"></i>
-            <i class="bi bi-instagram" style="font-size: 50px"></i>
-            <i class="bi bi-linkedin" style="font-size: 50px"></i>
-            <i class="bi bi-tiktok" style="font-size: 50px"></i>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="stray_cat6.jpeg" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Keep Kitty Warm</h5>
+            <p class="card-text">Winter in China is a harsh season for stray cats, as many will not survive the frigid
+              temperatures and lack of food. These innocent creatures are left to fend for themselves, exposed to the
+              unbearable temperatures and with no shelter to call home. </p>
+            <a href="fact.html#collapseThree" class="btn btn-primary">More Details</a>
+            <a href="action.html#one" class="btn btn-primary">Our Actions</a>
           </div>
-        </footer>
-      
+        </div>
+      </div>
     </div>
-    
+    <div class='row'>
+      <div class='col-md-12' id="btitle">
+        <h1 style="margin-left:40px;margin-top:30px;margin-bottom: 15px;"> What are Stray Cats? &#128062 </h1>
+      </div>
+      <div class='col-md-12'>
+        <p class="about">
+          Stray cats are a common sight in many parts of China. According to estimates, there are tens of millions of
+          stray cats in the country, with many living in urban areas. Most of these cats are abandoned pets or their
+          offspring, left to fend for themselves in harsh conditions.
+        </p>
+        <p class="about">
+          Unfortunately, life on the streets can be tough for these vulnerable creatures. Stray cats face a range of
+          challenges, including disease, malnutrition, and lack of proper care. Many suffer from illnesses like Feline
+          Infectious Peritonitis (FIP), which can be fatal if left untreated.
+        </p>
+        <p class="about">
+          Another challenge for stray cats in China is overpopulation. Without proper spaying and neutering programs,
+          the cat population can quickly spiral out of control, leading to more cats living in poor conditions without
+          access to basic necessities like food, water, and shelter.
+        </p>
+        <p class="about">
+          While some organizations in China are working to address these issues, there is still a long way to go in
+          terms of providing care and support to stray cats. By clicking the <b>"Contribute" </b>botton on the top of
+          our website, we can use the raised funds to make a difference in these innocent creatures' lives. <b>We will
+            build warm winter shelters, take stray cats to do sterilization surgery, and vaccinate them against
+            infectious diseases like FIV. </b>To ensure the authenticity of our actions, we will record videos biweekly
+          to report our progress of aiding and the lives of stray cats. We will also make our financial report public to
+          indicate where cach flow goes to in this process. Thank you for everyone who forever changes the lives of
+          these little creatures!
+        </p>
+        <div id="show">
 
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-  </body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <!-- need to be put after jquery since it will use it -->
-  <script src="js/velocity.min.js"></script>
-  <script src="js/velocity.ui.min.js"></script>
+        </div>
+        <button class="btn btn-danger" type="submit" id="clickme" style="margin-left:100px">Receive Thanks from Cats!
+        </button>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+    <footer class='row'>
+      <div class='col-md-6'>
+        <h3>Join Our Movements! </h3>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Enter your email address" aria-label="Username">
+          <span class="input-group-text">@</span>
+          <input type="text" class="form-control" placeholder="gmail.com" aria-label="Server">
+        </div>
+      </div>
+      <div class='col-md-6'>
+        <h3> Connect </h3>
+        <i class="bi bi-meta" style="font-size: 50px"></i>
+        <i class="bi bi-instagram" style="font-size: 50px"></i>
+        <i class="bi bi-linkedin" style="font-size: 50px"></i>
+        <i class="bi bi-tiktok" style="font-size: 50px"></i>
+      </div>
+    </footer>
 
-  <!--need to be put after jquery and v.js since it will use both -->
-  <script src="js/custom.js"></script>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<!-- need to be put after jquery since it will use it -->
+<script src="js/velocity.min.js"></script>
+<script src="js/velocity.ui.min.js"></script>
+
+<!--need to be put after jquery and v.js since it will use both -->
+<script src="js/custom.js"></script>
 
 </html>
