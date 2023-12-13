@@ -84,3 +84,7 @@ footer{
 
 	border-radius: 20px;
 }
+
+.highlight {
+    background-color: yellow;
+}
