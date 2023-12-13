@@ -5,6 +5,18 @@
 	min-height: 60px;
 }
 
+.nav-item{
+    text-align: center;
+    font-size: 20px;
+  }
+.navbar-toggler-icon{
+    display: block;}
+
+.navbar {
+    padding: .6rem 1rem;
+    
+}
+
 .profile-icon {
     margin-left: 20px;
     width: 40px;  /* Example size */
@@ -16,8 +28,8 @@
 /* .nav-profile {
     display: flex;
     align-items: center;
-    margin-left: auto; /* To align it to the right */
-} */
+    margin-left: auto; 
+/* } */ */ 
 
 
 #head{
@@ -31,6 +43,8 @@
 	height: 600px;
 
 }
+
+
 
 .input-group .form-control, .input-group .input-group-text {
 	height: 38px; /* Adjust this value as needed */
