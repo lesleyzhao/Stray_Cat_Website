@@ -5,6 +5,20 @@
 	min-height: 60px;
 }
 
+.profile-icon {
+    margin-left: 20px;
+    width: 40px;  /* Example size */
+    height: 40px; /* Example size */
+    background-image: url('https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png'); /* Example color */
+    border-radius: 50%; /* Makes it circular */
+}
+
+/* .nav-profile {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* To align it to the right */
+} */
+
 
 #head{
   z-index: 1000;
