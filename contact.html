@@ -41,13 +41,19 @@
                     <a class="nav-link" href="donate.html">Donation</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
+                <!-- <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-danger" type="submit">
                     <a href="donate.html" class="contribute" style="text-decoration: none; color:white">
                     Contribute!
                    </a>
                  </button>
+                </form> -->
+                <form class="d-flex" role="search" action="search.php" method="GET">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="query">
+                  <button class="btn btn-danger" type="submit">
+                    Search
+                  </button>
                 </form>
               </div>
             </div>
@@ -178,5 +184,6 @@
 
   <!--need to be put after jquery and v.js since it will use both -->
   <script src="js/custom.js"></script>
+  <script src="js/search.js"></script>
 
 </html>
