@@ -63,9 +63,9 @@
 	margin:30px;
 }
  .about{
- 	text-indent:20px;
+ 	/* text-indent:10px; */
  	font-size: 19px;
- 	margin: 30px;
+ 	margin: 50px;
  } 
 
 .bi-meta,.bi-instagram,.bi-linkedin,.bi-tiktok{
