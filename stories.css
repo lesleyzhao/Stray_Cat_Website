@@ -1,0 +1,62 @@
+#stories-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.story-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 15px;
+    max-width: 300px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.story-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.year {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.story-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.story-text {
+    text-align: justify;
+}
+
+.add-story {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.add-story input[type="text"],
+.add-story textarea,
+.add-story input[type="file"] {
+    width: 100%;
+    padding: 20px;
+    margin: 8px 0;
+    border: 20px solid #ddd;
+    border-radius: 4px;
+}
