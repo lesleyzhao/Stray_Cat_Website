@@ -1,3 +1,18 @@
+
+/* 
+.nav-item{
+    text-align: center;
+    font-size: 20px;
+  }
+.navbar-toggler-icon{
+    display: block;}
+
+.navbar {
+    padding: .6rem 1rem !important;
+}
+.navbar-brand{
+    font-size: 40px;
+} */
 #stories-container {
     display: flex;
     flex-wrap: wrap;
